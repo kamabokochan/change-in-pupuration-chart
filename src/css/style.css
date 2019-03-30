@@ -1,3 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
+.prefecturesList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1040px;
+  margin: auto;
+}
+.prefecturesList > li {
+  width: calc(100% / 5);
+}
+.prefecturesList > li:nth-child(n+6) {
+  margin-top: 10px;
+}
+.prefecturesList > li label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.prefecturesList > li label:hover {
+  opacity: 0.5;
+}
+.prefecturesList > li .prefName {
+  margin-left: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
