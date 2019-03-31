@@ -4,6 +4,10 @@
   list-style: none;
 }
 
+body {
+  font-family: "游ゴシック体", "游ゴシック",  YuGothic, "Yu Gothic";
+}
+
 .wrap {
   width: 1040px;
   margin: auto;
@@ -39,4 +43,5 @@ main {
 
 .chartWrap {
   margin-top: 30px;
+  box-shadow: 0 0 10px 0px #ccc;
 }

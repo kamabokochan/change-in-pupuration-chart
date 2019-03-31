@@ -66,6 +66,11 @@ class App extends Component {
       title: {
         text: '各都道府県の人口増減'
       },
+      xAxis: {
+        title: {
+          text: '年'
+        }
+      },
       yAxis: {
         title: {
           text: '%'
