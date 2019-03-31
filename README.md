@@ -5,3 +5,6 @@
 
 ## ライブラリ
 - Heightchart.js
+
+## 起動
+- npm run start
