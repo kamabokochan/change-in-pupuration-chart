@@ -4,16 +4,24 @@
   list-style: none;
 }
 
+.wrap {
+  width: 1040px;
+  margin: auto;
+  padding: 15px 0;
+}
+
+main {
+  margin-top: 30px;
+}
+
 .prefecturesList {
   display: flex;
   flex-wrap: wrap;
-  width: 1040px;
-  margin: auto;
 }
 .prefecturesList > li {
-  width: calc(100% / 5);
+  width: calc(100% / 10);
 }
-.prefecturesList > li:nth-child(n+6) {
+.prefecturesList > li:nth-child(n+11) {
   margin-top: 10px;
 }
 .prefecturesList > li label {
@@ -27,6 +35,10 @@
 }
 .prefecturesList > li .prefName {
   margin-left: 10px;
+}
+
+.chartWrap {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

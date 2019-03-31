@@ -4,14 +4,22 @@
   list-style: none;
 }
 
+.wrap {
+  width: 1040px;
+  margin: auto;
+  padding: 15px 0;
+}
+
+main {
+  margin-top: 30px;
+}
+
 .prefecturesList {
   display: flex;
   flex-wrap: wrap;
-  width: 1040px;
-  margin: auto;
   > li {
-    width: calc(100% / 5);
-    &:nth-child(n+6) {
+    width: calc(100% / 10);
+    &:nth-child(n+11) {
       margin-top: 10px;
     }
     label {
@@ -27,4 +35,8 @@
       margin-left: 10px;
     }
   }
+}
+
+.chartWrap {
+  margin-top: 30px;
 }
